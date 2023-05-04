@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		648809842A03F926009AEA82 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648809832A03F926009AEA82 /* Product.swift */; };
 		64D6E4BA2A03F6A300ACA8B2 /* __swift_shopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D6E4AA2A03F6A200ACA8B2 /* __swift_shopApp.swift */; };
 		64D6E4BB2A03F6A300ACA8B2 /* __swift_shopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D6E4AA2A03F6A200ACA8B2 /* __swift_shopApp.swift */; };
 		64D6E4BC2A03F6A300ACA8B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D6E4AB2A03F6A200ACA8B2 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		648809832A03F926009AEA82 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		64D6E4AA2A03F6A200ACA8B2 /* __swift_shopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __swift_shopApp.swift; sourceTree = "<group>"; };
 		64D6E4AB2A03F6A200ACA8B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		64D6E4AC2A03F6A300ACA8B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		648809822A03F907009AEA82 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				648809832A03F926009AEA82 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		64D6E4A42A03F6A100ACA8B2 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 			children = (
 				64D6E4AA2A03F6A200ACA8B2 /* __swift_shopApp.swift */,
 				64D6E4AB2A03F6A200ACA8B2 /* ContentView.swift */,
+				648809822A03F907009AEA82 /* Models */,
 				64D6E4AC2A03F6A300ACA8B2 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -178,6 +189,7 @@
 			files = (
 				64D6E4BC2A03F6A300ACA8B2 /* ContentView.swift in Sources */,
 				64D6E4BA2A03F6A300ACA8B2 /* __swift_shopApp.swift in Sources */,
+				648809842A03F926009AEA82 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
