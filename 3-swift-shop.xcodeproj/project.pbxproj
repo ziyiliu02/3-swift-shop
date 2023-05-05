@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6409CA132A04C291002DA874 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6409CA122A04C291002DA874 /* CartView.swift */; };
+		6409CA142A04C291002DA874 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6409CA122A04C291002DA874 /* CartView.swift */; };
 		648809842A03F926009AEA82 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648809832A03F926009AEA82 /* Product.swift */; };
 		648809882A03FA5F009AEA82 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648809872A03FA5F009AEA82 /* ProductCard.swift */; };
 		6488098B2A03FE51009AEA82 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6488098A2A03FE50009AEA82 /* CartButton.swift */; };
@@ -19,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6409CA122A04C291002DA874 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		648809832A03F926009AEA82 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		648809872A03FA5F009AEA82 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 		6488098A2A03FE50009AEA82 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
@@ -69,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				64D6E4AB2A03F6A200ACA8B2 /* ContentView.swift */,
+				6409CA122A04C291002DA874 /* CartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -209,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6409CA132A04C291002DA874 /* CartView.swift in Sources */,
 				64D6E4BC2A03F6A300ACA8B2 /* ContentView.swift in Sources */,
 				64D6E4BA2A03F6A300ACA8B2 /* __swift_shopApp.swift in Sources */,
 				648809842A03F926009AEA82 /* Product.swift in Sources */,
@@ -221,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6409CA142A04C291002DA874 /* CartView.swift in Sources */,
 				64D6E4BD2A03F6A300ACA8B2 /* ContentView.swift in Sources */,
 				64D6E4BB2A03F6A300ACA8B2 /* __swift_shopApp.swift in Sources */,
 			);
